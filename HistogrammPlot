@@ -1,3 +1,5 @@
+import numpy as np
+
 # Load master volume
 masterVolumeNode = slicer.mrmlScene.GetFirstNodeByClass("vtkMRMLScalarVolumeNode")
 
